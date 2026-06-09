@@ -9,9 +9,9 @@
 
 ## Why I Chose This Issue
 
-I chose this issue because it directly improves the developer experience and usability of the MFlowCode (MFC) test toolchain. Currently, the `./mfc.sh test --only <label>` flag enforces strict case sensitivity on test labels that lack a uniform capitalization convention. This creates unnecessary friction for developers who have to memorize specific casings like "STL" versus "slip". Resolving this issue allows me to contribute a high-value, user-facing fix to an active open-source project by modifying the Python-based toolchain infrastructure rather than digging into the complex core numerical simulation code.
+I picked this issue because it fixes a genuine quality-of-life annoyance in the daily developer workflow. Right now, running a specific test with `./mfc.sh test --only <label>` forces you to remember exact, non-standard capitalizations like "STL" or "slip." Making this flag case-insensitive is a straightforward usability win. It’s a great entry point for me because the fix lives inside the Python-based toolchain wrapper rather than the core Fortran simulation math, allowing me to get familiar with the repo's CLI architecture without getting bogged down in complex fluid dynamics.
 
-This task perfectly matches my skills in Python and shell scripting, allowing me to focus on the end-to-end pull request workflow—including forking, local test execution, and code review—without getting immediately bogged down by domain-specific physics or parallel computing mechanics. Through this contribution, I hope to gain a deeper understanding of how modern, high-performance computing projects structure their continuous integration frameworks and command-line interfaces. Completing this straightforward string normalization logic will give me a strong foundation in the repository's architecture for future, more advanced contributions.
+Working on this matches my background in Python and scripting well, making it an ideal project to practice the full open-source workflow—from local testing to opening a clean pull request. It also gives me a chance to see how a major high-performance computing project handles its development tooling and test automation. Resolving this issue will give me a solid foundation in the codebase so I can take on more advanced tasks down the line.
 
 ---
 
