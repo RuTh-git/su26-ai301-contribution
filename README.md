@@ -14,12 +14,6 @@ I picked this issue because it fixes a genuine quality-of-life annoyance in the 
 
 Working on this matches my background in Python and scripting well, making it an ideal project to practice the full open-source workflow—from local testing to opening a clean pull request. It also gives me a chance to see how a major high-performance computing project handles its development tooling and test automation. Resolving this issue will give me a solid foundation in the codebase so I can take on more advanced tasks down the line.
 
-### Preliminary Investigation & Scope
-* **Target Files:** Based on the execution command `./mfc.sh test --only`, the implementation details reside within the Python toolchain directory, specifically targeting argument parsing and test validation logic (likely within `toolchain/mfc/test/test.py` or the central `mfc.py` argument parsing layer). 
-* **Context Links:** The issue was explicitly flagged and opened by core maintainer [@danieljvickers](https://github.com/danieljvickers) in [Issue #1533](https://github.com/MFlowCode/MFC/issues/1533), confirming that the framework lacks a strict capitalization convention for labels, making string normalization the optimal solution.
-* **Concrete Acceptance Criteria:** 1. Executing `./mfc.sh test --only stl`, `./mfc.sh test --only STL`, and `./mfc.sh test --only sTl` must all successfully resolve to and execute the exact same `STL` target test.
-  2. The modification must cleanly reject invalid test labels without crashing the toolchain wrapper, maintaining parity with existing error-handling mechanisms.
-
 ---
 
 ## Understanding the Issue
