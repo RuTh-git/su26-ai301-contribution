@@ -1,15 +1,17 @@
-# Contribution [#]: [Issue Title]
+# Contribution [1]: Remove test --only case sensitivity
 
-**Contribution Number:** [1 / 2 / 3]  
-**Student:** [Your Name]  
-**Issue:** [GitHub issue link]  
-**Status:** [Phase I / Phase II / Phase III / Phase IV] [In Progress / Complete]
+**Contribution Number:** 1 
+**Student:** Ruth Mercy 
+**Issue:** GitHub issue link](https://github.com/MFlowCode/MFC/issues/1533)
+**Status:** Phase I Complete
 
 ---
 
 ## Why I Chose This Issue
 
-[1-2 paragraphs explaining why this issue interests you, how it matches your skills/learning goals, what you hope to learn]
+I chose this issue because it directly improves the developer experience and usability of the MFlowCode (MFC) test toolchain. Currently, the `./mfc.sh test --only <label>` flag enforces strict case sensitivity on test labels that lack a uniform capitalization convention. This creates unnecessary friction for developers who have to memorize specific casings like "STL" versus "slip". Resolving this issue allows me to contribute a high-value, user-facing fix to an active open-source project by modifying the Python-based toolchain infrastructure rather than digging into the complex core numerical simulation code.
+
+This task perfectly matches my skills in Python and shell scripting, allowing me to focus on the end-to-end pull request workflow—including forking, local test execution, and code review—without getting immediately bogged down by domain-specific physics or parallel computing mechanics. Through this contribution, I hope to gain a deeper understanding of how modern, high-performance computing projects structure their continuous integration frameworks and command-line interfaces. Completing this straightforward string normalization logic will give me a strong foundation in the repository's architecture for future, more advanced contributions.
 
 ---
 
