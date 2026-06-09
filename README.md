@@ -2,7 +2,7 @@
 
 **Contribution Number:** 1 
 **Student:** Ruth Mercy 
-**Issue:** GitHub issue link](https://github.com/MFlowCode/MFC/issues/1533)
+**Issue:** https://github.com/MFlowCode/MFC/issues/1533
 **Status:** Phase I Complete
 
 ---
