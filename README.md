@@ -1,8 +1,8 @@
 # Contribution [1]: Remove test --only case sensitivity
 
-**Contribution Number:** 1 
-**Student:** Ruth Mercy
-**Issue:** https://github.com/MFlowCode/MFC/issues/1533
+**Contribution Number:** 1  
+**Student:** Ruth Mercy  
+**Issue:** https://github.com/MFlowCode/MFC/issues/1533  
 **Status:** Phase I Complete
 
 ---
